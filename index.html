@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile | prakash</title>
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="scripts/script.js"></script>
+<script src="scripts/min-js.js"></script>
+</head>
+<body>
+
+<header>
+<div class="logo">
+Prakash blog
+</div>
+<nav id="menu">
+<ul>
+<li><a href="#profile">home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#hobbies">Hobbies</a></li>
+<li><a href="#visited">Moments</a></li>
+<li><a href="#contact">contact</a></li>
+<button id="exit" onclick="exit()">Exit</button>
+</ul>
+</nav>
+<button class="browse" id="browse" onclick="Brws()">Menu</button>
+</header>
+
+<article>
+<section>
+<div class="profile" id="profile">
+<h1>Prakash Thapa</h1><br>
+<h2>A creative hunter </h2>
+</div>
+</section>
+<section>
+<div class="about" id="about">
+<h2>About me</h2>
+<ul>
+<li>Country:Nepal</li>
+<li>Zone: Lumbini</li>
+<li>District: Nawalparasi</li>
+</ul>
+</div>
+</section>
+<section>
+<div class="hobbies" id="hobbies">
+<h2>My Hobbies</h2>
+<p>Sometime, i play PC games and engage with testing and implementing programming language
+for enjoyment, read article is the best part of me.
+</p>
+</div>
+</section>
+<section>
+<div class="visited" id="visited">
+<h2>My visited places</h2>
+<p>All these following photos are from Different places of Nepal</p>
+<img src="https://i2.wp.com/phasenepal.org/wp-content/uploads/2014/04/HumlaDistrictSimikot.jpg?fit=760%2C427" title="Humla"/>
+<img src="http://www.phalano.com/images/2007/10/jumla_22.jpg" title="Jumla"/>
+<img src="http://www.davnepal.org/sites/default/files/styles/720x340-program/public/img/Hiletaxar.jpg?itok=xm0QvBup" title="Kaski"/>
+<img src="http://destinationmanang.org/wp-content/uploads/2015/06/ngawal.png" title="Manang"/><br>
+<img src="http://himalayanexpeditions.com/wp/wp-content/gallery/nepal-kingdom-of-mustang/dscn7766.jpg" title="Muatang"/>
+<img src="https://www.adb.org/sites/default/files/styles/content_media/public/content-media/6411-nepal-post-card-binita-3.jpg?itok=RMfrTn0o" title="Mugu"/>
+<img src="https://farm4.staticflickr.com/3918/14494750946_9df2f15028_m.jpg" title="Nepalgunge"/>
+<img src="http://2.bp.blogspot.com/-JX59y-dWrDY/UGhNTOqIl_I/AAAAAAAAAm8/ER6Zt0xZ9So/s1600/IMG_3311.JPG" title="Kalikot"/>
+</div>
+</section>
+<section>
+<div class="contact" id="contact">
+<h2>Do you like to meet Me</h2>
+<form method="Post" action="#">
+<input type="text" name="fname" placeholder="Full Name" required/><br>
+<input type="email" name="email" placeholder="Email" required/><br>
+<textarea name="message" placeholder="Write message.." required></textarea><br>
+<input type="submit" value="Submit"/>
+</form>
+</div>
+</section>
+</article>
+<footer>
+<p>Designed By <a href="https://facebook.com/tprakash45">Prakash Thapa</a></p>
+</footer>
+<script>
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 300) {
+        $("header").addClass("active");
+    } else {
+        //remove the background property so it comes transparent again (defined in your css)
+       $("header").removeClass("active");
+    }
+});
+</script>
+</body>
+</html>
