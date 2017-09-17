@@ -178,4 +178,7 @@ position: inherit;
 left: 2px;
 top: 2px;
 }
+	.contact textarea{
+	max-width:100%;	
+	}
 }
