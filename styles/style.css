@@ -158,6 +158,7 @@ padding:2px;
 background:red;
 font-weight: bold;
 }
+
 @media (max-width:600px){
 .profile h1{
 font-size: 5.9VW;
