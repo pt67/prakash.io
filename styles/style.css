@@ -130,6 +130,7 @@ color: white;
 .contact textarea{
 resize: none;
 height:100px;
+box-sizing: border-box;  
 }
 header #menu{
 display: inherit;
