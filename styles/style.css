@@ -122,6 +122,7 @@ border:none;
 margin:1%;
 padding:6px;
 outline:1px solid black;
+width:240px;
 }
 .contact h2{
 font-weight: bold;
@@ -133,6 +134,7 @@ resize: none;
 height:100px;
 box-sizing: border-box;
 outline:1px solid black;
+width:240px;
 }
 .contact button{
 width:240px;
