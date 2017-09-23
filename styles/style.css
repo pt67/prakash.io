@@ -122,7 +122,6 @@ border:none;
 margin:1%;
 padding:6px;
 outline:1px solid black;
-width:32%;
 }
 .contact h2{
 font-weight: bold;
@@ -130,14 +129,13 @@ text-transform: uppercase;
 color: white;
 }
 .contact textarea{
+position:inherit;
 resize: none;
 height:100px;
 box-sizing: border-box;
 outline:1px solid black;
-width:32%;
 }
 .contact button{
-width:32%;
 border:none;
 background:red;
 color:white;
