@@ -134,6 +134,7 @@ resize: none;
 height:100px;
 box-sizing: border-box;
 outline:1px solid black;
+width:236px;
 }
 .contact button{
 border:none;
@@ -141,6 +142,7 @@ background:red;
 color:white;
 margin-top:1%;
 padding:6px;
+width:236px;
 }
 header #menu{
 display: inherit;
