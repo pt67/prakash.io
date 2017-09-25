@@ -9,6 +9,9 @@ outline:none;
 button{
 border:none;
 }
+button:hover{
+opacity:0.9;	
+}
 nav a{
 text-transform:uppercase;
 padding:5px;
