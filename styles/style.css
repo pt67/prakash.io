@@ -105,6 +105,9 @@ display: block;
 li{
 padding:5px;
 }
+li:hover{
+background:black;	
+}
 .about ul{
 border-style: solid;
 border-color: red;
