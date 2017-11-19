@@ -84,36 +84,40 @@ line-height:2px;
 }
 .visited{
 padding:10%;
-background:red;
 color: wheat;
 }
 .visited img{
 height:200px;
 width: 200px;
 }
+
+.visited img:hover{
+cursor: pointer;
+opacity:0.8;
+}
 .profile h1{
 font-size: 5.9VW;
 }
 .about{
-background:#ccc;
+background:black;
 color: whitesmoke;
 padding:10%;
 }
-.about ul li{
-display: block;
-}
-li{
-padding:5px;
+.about h2{
+text-shadow: 3px;
+text-transform: uppercase;
 }
 .about ul{
-border-style: solid;
-border-color: red;
-border-left:5px;
-background: linear-gradient(0deg, red, yellow);
+display: block;
+}
+.about li{
+display: block;
+padding:5px;
+margin-left: 0;
 }
 .hobbies{
 background: linear-gradient(45deg, red, yellow);
-	color: white;
+color: white;
 padding:10%;
 }
 .hobbies h2{
@@ -125,9 +129,9 @@ padding:10%;
 .contact input{
 border:none;
 margin:1%;
-padding:6px;
+padding:10px;
 outline:1px solid black;
-width:224px;
+width:500px;
 }
 .contact h2{
 font-weight: bold;
@@ -141,7 +145,7 @@ height:100px;
 margin-top:1%;
 box-sizing: border-box;
 outline:1px solid black;
-width:236px;
+width:520px;
 }
 .contact button{
 border:none;
@@ -149,7 +153,7 @@ background:red;
 color:white;
 margin-top:1%;
 padding:6px;
-width:236px;
+width:520px;
 }
 header #menu{
 display: inherit;
@@ -198,5 +202,34 @@ display: inherit;
 position: inherit;
 left: 2px;
 top: 2px;
+}
+.contact input{
+border:none;
+margin:1%;
+padding:6px;
+outline:1px solid black;
+width:224px;
+}
+.contact h2{
+font-weight: bold;
+text-transform: uppercase;
+color: white;
+}
+.contact textarea{
+position:inherit;
+resize: none;
+height:100px;
+margin-top:1%;
+box-sizing: border-box;
+outline:1px solid black;
+width:236px;
+}
+.contact button{
+border:none;
+background:red;
+color:white;
+margin-top:1%;
+padding:6px;
+width:236px;
 }
 }
