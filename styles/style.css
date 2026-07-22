@@ -1,0 +1,235 @@
+*{
+text-align:center;
+font-family:sans-serif;
+}
+a{
+text-decoration:none;
+outline:none;
+}
+button{
+border:none;
+}
+button:hover{
+opacity:0.9;
+cursor:pointer;
+}
+nav a{
+text-transform:uppercase;
+padding:5px;
+color:white;
+font-weight:bold;
+}
+body{
+max-width:100%;
+margin:0;
+background:url(../myphoto.jpg) fixed no-repeat;
+}
+header{
+padding:4%;
+position:fixed;
+width:100%;
+}
+
+header.active{
+    background: black;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+header nav{
+position:inherit;
+right:80px;
+float:right;
+display: block;
+}
+nav ul li{
+display: inline;
+}
+.logo{
+float:left;
+font-weight:bold;
+font-size:2em;
+text-shadow:3px 3px white;
+position:fixed;
+left:80px;
+top:40px;
+}
+.logo::first-letter{
+color:blue;
+}
+
+.browse{
+padding:2px;
+font-weight: bold;
+background:red;
+position: fixed;
+right:5px;
+top: 5px;
+display: none;
+}
+
+footer{
+padding:5%;
+background:black;
+color:white;
+}
+section h1{
+position:scroll;
+padding:10% 0% 0%;
+}
+section .profile{
+padding:10% 40% 20% 0%;
+color:white;
+line-height:2px;
+}
+.visited{
+padding:10%;
+color: wheat;
+}
+.visited img{
+height:200px;
+width: 200px;
+}
+
+.visited img:hover{
+cursor: pointer;
+opacity:0.8;
+}
+.profile h1{
+font-size: 5.9VW;
+}
+.about{
+background:black;
+color: whitesmoke;
+padding:10%;
+}
+.about h2{
+text-shadow: 3px;
+text-transform: uppercase;
+}
+.about ul{
+display: block;
+}
+.about li{
+display: block;
+padding:5px;
+margin-left: 0;
+}
+.hobbies{
+background: linear-gradient(45deg, red, yellow);
+color: white;
+padding:10%;
+}
+.hobbies h2{
+text-transform: uppercase;
+}
+.contact{
+padding:10%;
+}
+.contact input{
+border:none;
+margin:1%;
+padding:10px;
+outline:1px solid black;
+width:500px;
+}
+.contact h2{
+font-weight: bold;
+text-transform: uppercase;
+color: white;
+}
+.contact textarea{
+position:inherit;
+resize: none;
+height:100px;
+margin-top:1%;
+box-sizing: border-box;
+outline:1px solid black;
+width:520px;
+}
+.contact button{
+border:none;
+background:red;
+color:white;
+margin-top:1%;
+padding:6px;
+width:520px;
+}
+header #menu{
+display: inherit;
+top: 80px;
+position: inherit;
+top: 0;
+}
+#exit{
+display: none;
+padding:2px;
+background:red;
+font-weight: bold;
+}
+
+@media (max-width:600px){
+.profile h1{
+font-size: 5.9VW;
+}
+.profile h2{
+font-size: 3VW;
+}
+.logo{
+left: 5px;
+top: 5px;
+display: none;
+}
+header #menu{
+display: none;
+position: inherit;
+top: 0;
+}
+header ul{
+flex-direction:column;
+display: flex;
+left: 0;
+right: 0;
+margin-top: 0;
+background:red;
+position: inherit;
+}
+.browse{
+display: inherit;
+}
+#exit{
+display: inherit;
+position: inherit;
+left: 2px;
+top: 2px;
+}
+.contact input{
+border:none;
+margin:1%;
+padding:6px;
+outline:1px solid black;
+width:224px;
+}
+.contact h2{
+font-weight: bold;
+text-transform: uppercase;
+color: white;
+}
+.contact textarea{
+position:inherit;
+resize: none;
+height:100px;
+margin-top:1%;
+box-sizing: border-box;
+outline:1px solid black;
+width:236px;
+}
+.contact button{
+border:none;
+background:red;
+color:white;
+margin-top:1%;
+padding:6px;
+width:236px;
+}
+}
