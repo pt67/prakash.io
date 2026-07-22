@@ -1,0 +1,6 @@
+{
+  "name": "Prakash Thapa Portfolio",
+  "description": "Portfolio website rebuild for Prakash Thapa featuring profile, about me, hobbies, visited places in Nepal, and contact section.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
